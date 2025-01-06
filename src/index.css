@@ -1,0 +1,140 @@
+body {
+      font-family: sans-serif;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      width: 400px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .header .icon {
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      margin-right: 10px;
+    }
+
+    .header h2 {
+      margin: 0;
+    }
+
+    .select-container {
+      margin-bottom: 10px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .message {
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+
+    .loading {
+      background-color: #e0f7fa;
+      color: #0097a7;
+    }
+
+    .error {
+      background-color: #ffebee;
+      color: #d32f2f;
+    }
+
+    .error button {
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .repo-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+
+    .repo-card h3 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    .repo-card p {
+      margin-bottom: 10px;
+    }
+
+    .repo-card .stats {
+      display: flex;
+      align-items: center;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .repo-card .stats span {
+      margin-right: 10px;
+    }
+
+    .repo-card .stats .language {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .repo-card .stats .language::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #ffeb3b;
+      margin-right: 5px;
+    }
+
+    .repo-card .stats .star::before {
+      content: '★';
+      margin-right: 2px;
+    }
+
+    .repo-card .stats .fork::before {
+      content: '⑂';
+      margin-right: 2px;
+    }
+
+    .repo-card .stats .issue::before {
+      content: 'ⓘ';
+      margin-right: 2px;
+    }
+
+    .refresh-button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
